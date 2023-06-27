@@ -78,17 +78,35 @@ body {
   font-size: 10px;
   font-weight: 700;
   color: var(--Dark-Slate-Grey);
-  margin: 1rem 0 0.5rem 0;
+  margin:0;
+  /* border: 2px solid red; */
 }
 
+.card .left .labels{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .left .labels #label2{
+  color: var(--Tomato);
+  visibility: hidden;
+}
+
+
+
+
+
+
+
 .card .left input {
-    border-radius: 5px;
-    border: 1px solid var(--Grey);
-    height:2.3rem ;
-    /* margin: auto; */
-    padding:1rem;
-    margin:1rem 0;
-    /* width:24rem; */
+  border-radius: 5px;
+  border: 1px solid var(--Grey);
+  height:2.3rem ;
+  /* margin: auto; */
+  padding:1rem;
+  margin:0.3rem 0 1rem 0;
+  /* width:24rem; */
+  /* border: 2px solid red; */
 
 
 }
